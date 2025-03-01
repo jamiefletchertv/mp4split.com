@@ -1,0 +1,33 @@
+site_name: 'mp4split'
+
+nav:
+  - Home: index.md
+#- Overview: 01_overview.md
+#- Key Features: 02_key_features.md
+#- Installation: 03_installation.md
+#- Commands Usage: 04_commands_usage.md
+#- Optimization & Troubleshooting: 05_optimization_troubleshooting.md
+#- Examples: 06_examples.md
+#- Conclusion: 07_conclusion.md
+#- template.md
+
+theme:
+  name: 'readthedocs'
+  logo: overrides/.icons/bootstrap/mp4split.png
+
+
+# Optional: Add plugins, markdown extensions, etc.
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
