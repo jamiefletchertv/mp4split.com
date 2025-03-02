@@ -30,3 +30,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./site
+
+    extra_javascript:
+      - javascripts/extra.js

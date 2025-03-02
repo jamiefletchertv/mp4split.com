@@ -25,6 +25,9 @@ extra:
     provider: google
     property: G-MC8S2FFRFD
 
+extra_javascript:
+  - javascripts/extra.js
+
 markdown_extensions:
   - admonition
   - codehilite
