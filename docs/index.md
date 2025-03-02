@@ -9,6 +9,6 @@ keywords: "mp4split, unified packager, HLS, DASH, DRM, encryption, CMAF, unified
 
 # Welcome
 
-Not the page you are looking for?
+Not the page you are looking for? :-)
 
 Then checkout [docs.unified-streaming.com](https://docs.unified-streaming.com/documentation/package/index.html)
