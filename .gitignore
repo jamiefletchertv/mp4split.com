@@ -1,5 +1,5 @@
 # Ignore the built site directory
-site/
+#site/
 
 # Ignore Python cache files
 __pycache__/
