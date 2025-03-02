@@ -1,7 +1,7 @@
 mkdocs
 mkdocs-meta-descriptions-plugin
 #mkdocs-search-plugin
-#mkdocs-material
+mkdocs-material
 #pymdown-extensions
 mkdocs-minify-plugin
 mkdocs-git-revision-date-localized-plugin
