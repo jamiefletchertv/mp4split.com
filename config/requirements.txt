@@ -1,6 +1,6 @@
 mkdocs
-mkdocs-meta-descriptions
-mkdocs-search
+mkdocs-meta-descriptions-plugin
+mkdocs-search-plugin
 #mkdocs-material
 #pymdown-extensions
 mkdocs-minify-plugin
