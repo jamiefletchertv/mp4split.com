@@ -1,24 +1,29 @@
-site_name: 'mp4split'
+site_name: "mp4split"
+site_description: "You probably landed here because you searched for mp4split?
+But really you need unified_packager, so do checkout docs.unified-streaming.com
+for covering installation, commands, DRM encryption, subtitles, and streaming
+formats."
+site_url: https://mp4split.com/
 
 nav:
   - Home: index.md
-#- Overview: 01_overview.md
-#- Key Features: 02_key_features.md
-#- Installation: 03_installation.md
-#- Commands Usage: 04_commands_usage.md
-#- Optimization & Troubleshooting: 05_optimization_troubleshooting.md
-#- Examples: 06_examples.md
-#- Conclusion: 07_conclusion.md
-#- template.md
+  - '' : "hidden.md"
 
 theme:
   name: 'readthedocs'
-  logo: overrides/.icons/bootstrap/mp4split.png
+  #logo: img/mp4split.png
 
 
 # Optional: Add plugins, markdown extensions, etc.
 plugins:
   - search
+  #- sitemap
+  - meta-descriptions
+
+extra:
+  analytics:
+    provider: google
+    property: G-MC8S2FFRFD
 
 markdown_extensions:
   - admonition
